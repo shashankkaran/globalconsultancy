@@ -11,11 +11,13 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-
-const pages = ['Products', 'Pricing', 'Blog'];
+// import {  useNavigate } from 'react-router-dom';
+import { Link } from "react-router-dom";
+const pages = ['Home', 'Franchise', 'Blog'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Navbar() {
+  
     const [anchorElNav, setAnchorElNav] = React.useState(null);
     const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -78,11 +80,22 @@ function Navbar() {
                                 display: { xs: 'block', md: 'none' },
                             }}
                         >
-                            {pages.map((page) => (
-                                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                                    <Typography textAlign="center">{page}</Typography>
-                                </MenuItem>
-                            ))}
+
+                           <a href="/"> <MenuItem onClick={handleCloseNavMenu}>
+                                <Typography textAlign="center">Home</Typography>
+                            </MenuItem>
+                            </a>
+                           <a href="/franchise">
+                            <MenuItem onClick={handleCloseNavMenu}>
+                                <Typography textAlign="center">Franchise</Typography>
+                            </MenuItem>
+                            </a>
+                           <a href="/contactus" >
+                            <MenuItem  onClick={handleCloseNavMenu}>
+                                <Typography textAlign="center">Contact Us</Typography>
+                            </MenuItem>
+                            </a>
+
                         </Menu>
                     </Box>
                     <Typography
@@ -94,15 +107,37 @@ function Navbar() {
                         LOGO
                     </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-                        {pages.map((page) => (
+
+                        
                             <Button
-                                key={page}
+
+                                onClick={()=>{
+                                   
+                                     handleCloseNavMenu();
+                                  }}
+                                sx={{ my: 2, color: 'white', display: 'block' }}
+                            >
+                              Home
+                            </Button>
+                        
+                       
+                            <Button
+
                                 onClick={handleCloseNavMenu}
                                 sx={{ my: 2, color: 'white', display: 'block' }}
                             >
-                                {page}
+                            Franchise
                             </Button>
-                        ))}
+                      
+
+                        <Button
+
+                            onClick={handleCloseNavMenu}
+                            sx={{ my: 2, color: 'white', display: 'block' }}
+                        >
+                            Contact Us
+                        </Button>
+
                     </Box>
 
                     <Box sx={{ flexGrow: 0 }}>
