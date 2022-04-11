@@ -10,6 +10,7 @@ import SubFranchise from './Pages/franchise/SubFranchise';
 import Home from './Pages/home/Home';
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
+import ContactUs from './Pages/contactus/ContactUs';
 function App() {
   return (
     <div>
@@ -20,6 +21,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="franchise" element={<Franchise />} />
           <Route path="franchise/:fid" element={<SubFranchise />} />
+          <Route path="contactus" element={<ContactUs />} />
 
 
         </Routes>
