@@ -109,7 +109,7 @@ function Navbar() {
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
 
                         
-                            <Button
+                          <a href='/'>  <Button
 
                                 onClick={()=>{
                                    
@@ -119,25 +119,27 @@ function Navbar() {
                             >
                               Home
                             </Button>
+                            </a>
                         
                        
-                            <Button
+                         <a href="/franchise">  <Button
 
                                 onClick={handleCloseNavMenu}
                                 sx={{ my: 2, color: 'white', display: 'block' }}
                             >
                             Franchise
                             </Button>
+                            </a> 
                       
 
-                        <Button
+                      <a href="/contactus">  <Button
 
                             onClick={handleCloseNavMenu}
                             sx={{ my: 2, color: 'white', display: 'block' }}
                         >
                             Contact Us
                         </Button>
-
+                        </a>
                     </Box>
 
                     <Box sx={{ flexGrow: 0 }}>
