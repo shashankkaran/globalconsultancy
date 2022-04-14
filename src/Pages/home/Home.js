@@ -1,10 +1,13 @@
 import React from 'react'
+import Aboutus from '../aboutus/Aboutus'
 import Services from '../services/Services'
+import SubHome from './SubHome'
 function Home() {
   return (
     <div>
-        hi Home
+         <SubHome/>
         <Services/> 
+        <Aboutus/>
     </div>
   )
 }
