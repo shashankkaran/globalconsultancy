@@ -1,4 +1,5 @@
 import React from 'react'
+import Aboutus from '../aboutus/Aboutus'
 import Services from '../services/Services'
 import SubHome from './SubHome'
 function Home() {
@@ -6,6 +7,7 @@ function Home() {
     <div>
          <SubHome/>
         <Services/> 
+        <Aboutus/>
     </div>
   )
 }
