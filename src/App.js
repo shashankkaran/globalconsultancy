@@ -1,5 +1,6 @@
 import './App.css';
 // import { render } from "react-dom";
+import { useEffect } from 'react';
 import {
   BrowserRouter,
   Routes,
@@ -11,7 +12,20 @@ import Home from './Pages/home/Home';
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
 import ContactUs from './Pages/contactus/ContactUs';
+import TawkTo from 'tawkto-react';
 function App() {
+
+  useEffect(() => {
+    
+    var tawk = new TawkTo("625ad40bb0d10b6f3e6de0a1", "1g0pcojbv")
+
+    tawk.onStatusChange((status) => 
+    {
+        console.log(status)
+    })
+
+}, [])
+
   return (
     <div>
     <Navbar/>
