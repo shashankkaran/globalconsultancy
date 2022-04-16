@@ -1,5 +1,5 @@
 import React from 'react'
-import CaraouselCaption from '../../components/carousel/CarouselCaption';
+// import CaraouselCaption from '../../components/carousel/CarouselCaption';
 import banner from '../../assets/homebanner.mp4';
 function SubHome() {
   return (
