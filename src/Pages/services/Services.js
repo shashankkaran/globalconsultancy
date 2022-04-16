@@ -9,7 +9,7 @@ function Services() {
     slidesToScroll: 2
   };
   return (
-    <div>
+    <div id="services" >
       <div className="card" style={{width:"18rem"}}>
         <img src="https://wallpapercave.com/wp/wp1902307.jpg" class="card-img-top" alt="..." />
         <div class="card-body">

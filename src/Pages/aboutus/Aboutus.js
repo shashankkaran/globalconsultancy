@@ -2,8 +2,8 @@ import React from 'react'
 
 function Aboutus() {
   return (
-    <div>
-        <hi>About Us</hi>
+    <div id="about" >
+        <hi>About Us </hi>
     </div>
   )
 }
