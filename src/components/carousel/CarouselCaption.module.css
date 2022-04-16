@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.container h1 {
+  color: #0adae9;
+  font-family: "Roboto";
+  font-size: 4rem;
+  font-weight: bolder !important;
+  text-shadow: none;
+  margin-right: auto;
+  text-align: left;
+}
+
+h1 strong{
+  text-shadow: 1px 0 #888888;
+  letter-spacing:1px;
+  font-weight:bolder;
+}
+
+.container {
+  position: absolute;
+  /* bottom:25vh; */
+ 
+  top: 10%; 
+  left: 10%;
+  /* right: 20rem; */
+  width: 90%;
+  text-align: left;
+}
+
+ .container .content {
+  color: rgb(248, 248, 248);
+  font-family: "Roboto";
+  font-size: 2rem;
+  text-align: left;
+  text-shadow: none;
+}
+
+.focus {
+  border: 3px solid #0adae9;
+  border-radius: 50%;
+  border-width: medium thin thick 10px;
+  padding: 10px 10px;
+  font-size: 3rem;
+}
+
+.infoContainer {
+  padding: 50px 2px;
+  display: flex;
+}
+
+.container .content .infoContainer a:hover{
+  color:#0a58ca !important;
+}
+
+.info {
+  border: 2px solid #0adae9;
+  width: 10rem;
+  height: 4rem;
+  background-color: inherit;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #fff;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.info-donate {
+  background: #0adae9;
+  background-blend-mode: darken;
+  width: 10rem;
+  height: 4rem;
+  color: black;
+  font-weight: bolder;
+  padding: 1.4rem 2rem;
+}
+
+.info-donate:hover {
+  background-color: #058188;
+  border-color: #058188;
+  color: rgb(253, 253, 253);
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .container {
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    width: 100vw;
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 0 20px;
+  }
+
+  .container h1{
+    font-size: 3.5rem;
+  }
+
+  .container .content{
+    font-size: 1.5rem;
+    width: 100%;
+    line-height: 3.5rem;
+  }
+
+  .container .content .focus{
+    font-size: 1.8rem;
+  }
+
+  .infoContainer{
+   width: 100vw;
+   justify-content: center;
+   align-items: center;
+   margin-left: -10px;
+  }
+
+  .info-donate{
+    height: 4rem;
+  }
+
+}

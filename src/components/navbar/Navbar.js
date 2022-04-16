@@ -1,7 +1,7 @@
 import React from 'react'
-
+import icon from '../../assets/icon.png'
 // import {  useNavigate } from 'react-router-dom';
-
+import './nav.css';
 function Navbar() {
 
     const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -25,11 +25,11 @@ function Navbar() {
 
 
     return (
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar sticky-top  navbar-expand-lg navbar-light" style={{backgroundColor:'#9FB4FF'}}>
             <div class="container-fluid">
                
-                <a class="navbar-brand" href="#">Logo
-                {/* <img src='https://wallpapercave.com/wp/wp1902307.jpg' alt='ss' width={'100px'} /> */}
+               <img width="90px" src={icon} /> 
+               <a class="navbar-brand" href="#"><strong>Global Consultancy</strong>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -40,10 +40,10 @@ function Navbar() {
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Our Services</a>
+                            <a class="nav-link" href="#services">Our Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Our Company</a>
+                            <a class="nav-link" href="#about">About Our Company</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
