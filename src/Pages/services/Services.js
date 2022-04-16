@@ -12,6 +12,7 @@ function Services() {
     <div id="services" >
      <h1 class="p-5">Our Services</h1>
        
+       
       <div className="card" style={{width:"18rem"}}>
         <img src="https://wallpapercave.com/wp/wp1902307.jpg" class="card-img-top" alt="..." />
         <div class="card-body">
