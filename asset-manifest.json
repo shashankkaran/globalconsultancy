@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/globalconsultancy/static/css/main.f98b7c11.css",
+    "main.js": "/globalconsultancy/static/js/main.1470b3c0.js",
+    "static/js/787.6e2e0516.chunk.js": "/globalconsultancy/static/js/787.6e2e0516.chunk.js",
+    "static/media/homebanner.mp4": "/globalconsultancy/static/media/homebanner.4c4ab31ddfdda9ef8cbf.mp4",
+    "static/media/icon.png": "/globalconsultancy/static/media/icon.2540eaf9d815a55abc3a.png",
+    "index.html": "/globalconsultancy/index.html",
+    "main.f98b7c11.css.map": "/globalconsultancy/static/css/main.f98b7c11.css.map",
+    "main.1470b3c0.js.map": "/globalconsultancy/static/js/main.1470b3c0.js.map",
+    "787.6e2e0516.chunk.js.map": "/globalconsultancy/static/js/787.6e2e0516.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f98b7c11.css",
+    "static/js/main.1470b3c0.js"
+  ]
+}
