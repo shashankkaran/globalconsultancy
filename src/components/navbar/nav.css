@@ -2,7 +2,18 @@
 *{
     font-family: 'Fjalla One', sans-serif;
 }
+.navbar-toggler{
+    background-color: rgb(50, 95, 218) !important;  
+}
+@media (max-width:400px) {
+.navbar-toggler{
+    margin-left: auto;
+    margin-right: auto;
 
+}
+
+
+}
 @media (min-width:990px) {
     ul{
         position: absolute;

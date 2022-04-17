@@ -4,6 +4,10 @@ h1{
     /* color: aliceblue; */
     text-align: center;
 }
+*{
+    /* background-color: wheat; */
+    color: aliceblue !important;
+}
 body{
-    background-color: wheat;
+    background-color: black;
 }

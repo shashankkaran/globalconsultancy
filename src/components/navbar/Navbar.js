@@ -25,7 +25,7 @@ function Navbar() {
 
 
     return (
-        <nav class="navbar sticky-top  navbar-expand-lg navbar-light" style={{backgroundColor:'#9FB4FF'}}>
+        <nav class="navbar sticky-top  navbar-expand-lg navbar-light" style={{backgroundColor:'#001138'}}>
             <div class="container-fluid">
                
                <img width="90px" src={icon} /> 
