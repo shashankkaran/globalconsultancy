@@ -5,9 +5,10 @@ h1{
     text-align: center;
 }
 *{
-    /* background-color: wheat; */
-    color: aliceblue !important;
+   
+    
 }
 body{
-    background-color: black;
+    /* background-color: black; */
+     background-color: #F7F7F7;
 }
