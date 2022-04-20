@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 *{
     font-family: 'Fjalla One', sans-serif;
+    
 }
 .navbar-toggler{
     background-color: rgb(50, 95, 218) !important;  
@@ -11,7 +12,9 @@
     margin-right: auto;
 
 }
-
+.nav-link-active .nav-link .navbar-light{
+    color: aliceblue !important;
+}
 
 }
 @media (min-width:990px) {
