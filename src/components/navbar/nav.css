@@ -3,6 +3,14 @@
     font-family: 'Fjalla One', sans-serif;
     
 }
+
+a{
+    color: antiquewhite !important;
+}
+.dropdown-item{
+    background-color: rgb(50, 95, 218) !important;
+}
+
 .navbar-toggler{
     background-color: rgb(50, 95, 218) !important;  
 }
@@ -12,9 +20,7 @@
     margin-right: auto;
 
 }
-.nav-link-active .nav-link .navbar-light{
-    color: aliceblue !important;
-}
+
 
 }
 @media (min-width:990px) {

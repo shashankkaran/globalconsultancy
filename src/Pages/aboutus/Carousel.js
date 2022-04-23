@@ -6,7 +6,7 @@ function Carousel() {
     const settings = {
       dots: true,
       infinite: true,
-      speed: 500,
+      speed: 1050,
       slidesToShow: 1,
       slidesToScroll: 1
     };

@@ -9,7 +9,7 @@ function Footer() {
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-wrap md:text-left text-center order-first">
           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">ABOUT OUR CONSULTING</h2>
+            <h2 class="title-font font-medium  tracking-widest text-sm mb-3">ABOUT OUR CONSULTING</h2>
             <nav class="list-none mb-10">
               <li>
                 <a class="text-gray-600 hover:text-gray-800">That started from this tropic port aboard this tiny ship today still want by theam government they survive on up to thetre east side to a deluxe as soldiers of artics fortune</a>
@@ -26,7 +26,7 @@ function Footer() {
             </nav>
           </div>
           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">FRANCHISE</h2>
+            <h2 class="title-font font-medium tracking-widest text-sm mb-3">FRANCHISE</h2>
             <nav class="list-none mb-10">
               <li>
                 <a class="text-gray-600 hover:text-gray-800">BEER STREET</a>
@@ -41,7 +41,7 @@ function Footer() {
             </nav>
           </div>
           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">SERVICES</h2>
+            <h2 class="title-font font-medium tracking-widest text-sm mb-3">SERVICES</h2>
             <nav class="list-none mb-10">
               <li>
                 <a class="text-gray-600 hover:text-gray-800">Franchise Model</a>
@@ -67,7 +67,7 @@ function Footer() {
             </nav>
           </div>
           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">SUBSCRIBE</h2>
+            <h2 class="title-font font-medium tracking-widest text-sm mb-3">SUBSCRIBE</h2>
             <div class="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
               <div class="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
                 {/* <label for="footer-field" class="leading-7 text-sm text-gray-600">Placeholder</label> */}
@@ -77,10 +77,10 @@ function Footer() {
                     '& > :not(style)': { m: 0, width: '20ch' },
                   }}
                   noValidate
-                  autoComplete="off"
+                  autoComplete="on"
                 >
-                  <TextField id="standard-basic" label="Name" variant="standard" /><br/>
-                  <TextField id="standard-basic" label="Email" variant="standard" />
+                  <TextField id="name" label="Name" variant="standard" /><br/>
+                  <TextField id="email" label="Email" variant="standard" />
                
                 </Box>
               </div>
